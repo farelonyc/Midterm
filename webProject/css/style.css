@@ -1,0 +1,56 @@
+body {
+  background-color: lawngreen;
+}
+.jumbotron {
+  margin-top: 50px;
+  padding-left: 50px;
+  background-color: aquamarine;
+}
+#video {
+  background: #e3e3e3;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+}
+#instruction {
+  font-family: serif;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: aquamarine;
+}
+#recording {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#mini_test {
+  font-family: serif;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: aquamarine;
+}
+#title_mini {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#feedback {
+  font-family: serif;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: aquamarine;
+}
+#title_feedback {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.vocabulary {
+  background-color: white;
+}
+#carousel {
+  background-position: center;
+  margin:auto;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+.container {
+  background-color: aquamarine;
+}
