@@ -1,6 +1,9 @@
 body {
   background-color: lawngreen;
 }
+li.dropdown:hover > .dropdown-menu {
+  display: block;
+}
 .jumbotron {
   margin-top: 50px;
   padding-left: 50px;
@@ -53,4 +56,7 @@ body {
 }
 .container {
   background-color: aquamarine;
+}
+.pagination {
+  padding-left: 20px;
 }
