@@ -1,9 +1,7 @@
-# MSTU 5003 Design Document (Template)
+# MSTU 5003 Design Document
 
-Write a design document where you explain your project. You should clearly explain the problem you're trying to solve. Be sure to describe the domain you're working with and the users you're trying to target. Remember that the point of your design document is that you can hand it off to any developer and theoretically they would be able to understand and build the program.
-
-You'll be adding to your design document as you work towards your midterm due on **March 22, 2017**.
-
+The Website's name is Kinder Spanish. It is an interactive program that helps teachers and parents teach
+Spanish to children using a dynamic structure designed by me using a multimodal approach. I started each lesson with a video of a cartoon with two characters: A dog and a cat. The two characters talk to each other in English and Spanish while doing actions that relates to real life situations. The videos are short in length and each section of the lesson, including the assessment are based on a micro-learning strategy. While designing the instructional structure of the website and the most effective way for children to learn and retain information, I incorporated John Sweller's Cognitive load theory. During the lesson, the process of learning is broken down into small sections. Each section is very specific as to what is required to learned. This allows for a reduction of Extraneous cognitive load which is sometimes unnecessary. Every section in the lesson is interrelated and most importantly is designed to create relationships with every day behaviors as to maximize Germane cognitive load, which will ultimately construct schemas.
 
 ## Topic
 *What is the subject at hand?*
@@ -19,16 +17,6 @@ A real resource for teachers and parents to teach Spanish to children 2 to 7 yea
 The target audience is parents and educators needing a reliable resource to assess and teach Spanish to children.
 
 ### User Stories
-**Outline 2-3 user stories. Describe how they find out, engage and come back to your site. Provide rationale.**
-
-Structure your user stories as features, so you can actually build it to meet the users needs.
-
-**Example**: As a [type of user], I want [some goal] so that [some reason].
-
-Keep these questions in mind:
-- Who are you building the feature for? What type of user?
-- What are you building and what will it accomplish?
-- What kind of engagement and value will the feature/website bring for the user? What does it accomplish?
 
 Ysabel:
 She is 40 years old, she is married, and she has two kids. One is in 1st grade and the other in kindergarten. She has been an IT vice president for Mercedes Benz for the last 10 years. Her income is $150,000 and uses internet at work and 50% at home to read the news and do online shopping. She spends most of her time working and only has the weekends to dedicate time to review school work with her kids. She is of hispanic decent and is fluent in Spanish. She would like her kids to learn Spanish as a second language. She is frustrated that the school her children attend does not have a Spanish language program and that their kids are missing out. She was thinking of enrolling them in Spanish classes on Saturdays but that is the time she spends with them. She would like a program that she can supervise and work with her children so that they learn together.
@@ -36,15 +24,8 @@ She is 40 years old, she is married, and she has two kids. One is in 1st grade a
 Frank:
 He is 37 years old and married with one child. His kid is in preK at a local daycare. Frank is a kindergarten head teacher at a private school in Jersey City, NJ. His annual income is $50,000 and uses internet 100% of the time at home to read educational newsletters and get updates for his favorite sport teams. he would like to use web-based programs for his students at school. Frank is fluent in Spanish and his school is planning to develop a bilingual program for the kindergarten class. He has been doing a lot of research on different Spanish programs but is looking specifically for a web-based interactive program that he can get more information on learning Spanish and to track the progress of each of his students.
 
-- **User Story 1:**
-- **User Story 2:**
-- **User Story 3:**
-- **User Story 4:**
-
 
 ## Strategy
-
-This section should describe objectives, goals and metrics.
 
 ### Site Objectives:
 *What do we want to get out of the site?*
@@ -78,3 +59,9 @@ The website has a Global navigation design to allow users to get out of their cu
 
 The information design of the website is conveniently labeled with specific fonts and icons for each node. Each node will have its own background color as to help the user identify where he/she is located on the website.
 (You'll provide wireframes here)
+
+![wireframes](/wireframes/Slide1.png)
+![wireframes](/wireframes/Slide2.png)
+![wireframes](/wireframes/Slide3.png)
+![wireframes](/wireframes/Slide4.png)
+![wireframes](/wireframes/Slide5.png)
