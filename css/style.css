@@ -1,5 +1,5 @@
 body {
-  background-color: lawngreen;
+  background-color: springgreen;
 }
 li.dropdown:hover > .dropdown-menu {
   display: block;
@@ -7,7 +7,7 @@ li.dropdown:hover > .dropdown-menu {
 .jumbotron {
   margin-top: 50px;
   padding-left: 50px;
-  background-color: aquamarine;
+  background-color: plum;
 }
 #video {
   background: #e3e3e3;
@@ -18,7 +18,7 @@ li.dropdown:hover > .dropdown-menu {
   font-family: serif;
   font-size: 20px;
   margin-top: 50px;
-  background-color: aquamarine;
+  background-color: turquoise;
 }
 #recording {
   font-family: sans-serif;
@@ -28,7 +28,7 @@ li.dropdown:hover > .dropdown-menu {
   font-family: serif;
   font-size: 20px;
   margin-top: 50px;
-  background-color: aquamarine;
+  background-color: plum;
 }
 #title_mini {
   font-family: sans-serif;
@@ -38,7 +38,7 @@ li.dropdown:hover > .dropdown-menu {
   font-family: serif;
   font-size: 20px;
   margin-top: 50px;
-  background-color: aquamarine;
+  background-color: turquoise;
 }
 #title_feedback {
   font-family: sans-serif;
@@ -55,8 +55,45 @@ li.dropdown:hover > .dropdown-menu {
   margin: 0 auto;
 }
 .container {
-  background-color: aquamarine;
+  background-color: turquoise;
+  border-radius: 10px;
 }
 .pagination {
   padding-left: 20px;
+}
+#instructions {
+  margin-top: 50px;
+  background-color: inherit;
+  text-align: center;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url('../img/prea2.jpeg');
+color: black;
+text-shadow: black;
+}
+#header2 {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url('../img/prea.jpg');
+color: white;
+text-shadow: black;
 }

@@ -60,6 +60,9 @@ The website has a Global navigation design to allow users to get out of their cu
 The information design of the website is conveniently labeled with specific fonts and icons for each node. Each node will have its own background color as to help the user identify where he/she is located on the website.
 (You'll provide wireframes here)
 
+## Third Party Video Production & Pictures
+The videos used in the lessons are produced and copyrighted by HBO. The pictures of the Nexo Knights are created and copyrighted by LEGO. The videos and pictures are used under the "fair use" exception as the material is for educational purposes. 
+
 ![wireframes](/wireframes/Slide1.png)
 ![wireframes](/wireframes/Slide2.png)
 ![wireframes](/wireframes/Slide3.png)

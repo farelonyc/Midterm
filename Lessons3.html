@@ -126,49 +126,32 @@
 <div class="container" id="mini_test">
   <div class="row">
     <div class="col-sm-12">
-      <h2 id="title_mini">Show me what you learned and Create.</h2>
-      1. Vamos al  ________
+      <h2 id="title_mini">Show me what you have learned.</h2>
 
-      <FORM method="POST"
-            onSubmit="return checkAnswer(this,'A');"
-      >
+      <form  id="form2" action=" ">
+    <p>1. Vamos al  ________</p>
+    <input type="radio" name="fulano" value="50" />supermercado.<br />
+    <input type="radio" name="fulano" value="0" />jugar.<br />
+    <input type="radio" name="fulano" value="0" />supermercados.<br />
+    <input type="radio" name="fulano" value="0" />cabeza.<br />
 
-      <INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-      A. supermercado<BR>
+    <p>2. Para poner las cosas del supermercado, necesitamos una  ________.</p>
+    <input type="radio" name="sutano" value="0" />hielo.<br />
+    <input type="radio" name="sutano" value="50" />bolsa.<br />
+    <input type="radio" name="sutano" value="0" />bolsas.<br />
+    <input type="radio" name="sutano" value="0" />bocas.<br />
 
-      <INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-      B. jugar<BR>
-
-      <INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-      C. supermercados<BR>
-
-      <INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-      </FORM>
+    <input type="submit" value="Submit">
+    </form>
 
 
-      2. Para poner las cosas del supermercado, necesitamos una  ________
-
-      <FORM method="POST"
-            onSubmit="return checkAnswer(this,'B');"
-      >
-
-      <INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-      A. hielo<BR>
-
-      <INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-      B. bolsa<BR>
-
-      <INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-      C. bolsas<BR>
-
-      <INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-      </FORM>
+      <p>Your grade is: <span id="grade3">__</span></p>
+      <p id="grade4"></p>
 
     </div>
   </div>
 </div>
+
 
 <div class="container" id="feedback">
   <div class="row">
@@ -220,8 +203,24 @@
   <p>This is a simple program to help you teach Spanish Kindergarten level in an Interactive Way.</p>
   <p><a class="btn btn-primary btn-lg" href="signup.html" role="button">Sign Up</a></p>
 </div>
+
+<footer>
+
+ <!-- Copyright -->
+ <div class="row">
+  <div class="col-md-12">
+   <p class="text-center">
+    &copy; Copyright 2017 by Carlos Farelo. All rights reserved.
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Use</a>
+   </p>
+  </div>
+ </div>
+</footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<script type="text/javascript" src="script2.js"></script>
   </body>
 </html>

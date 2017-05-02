@@ -126,45 +126,27 @@
 <div class="container" id="mini_test">
   <div class="row">
     <div class="col-sm-12">
-      <h2 id="title_mini">Show me what you learned and Create.</h2>
-      1. Tenemos que lavarnos las ________
+      <h2 id="title_mini">Show me what you have learned.</h2>
 
-      <FORM method="POST"
-            onSubmit="return checkAnswer(this,'A');"
-      >
+      <form  id="form2" action=" ">
+    <p>1. Tenemos que lavarnos las ________.</p>
+    <input type="radio" name="fulano" value="50" />manos.<br />
+    <input type="radio" name="fulano" value="0" />comer.<br />
+    <input type="radio" name="fulano" value="0" />modales.<br />
+    <input type="radio" name="fulano" value="0" />cabeza.<br />
 
-      <INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-      A. manos<BR>
+    <p>2. Usa el ________ , no las manos.</p>
+    <input type="radio" name="sutano" value="0" />boca.<br />
+    <input type="radio" name="sutano" value="50" />tenedor.<br />
+    <input type="radio" name="sutano" value="0" />tenedores.<br />
+    <input type="radio" name="sutano" value="0" />bocas.<br />
 
-      <INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-      B. comer<BR>
-
-      <INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-      C. mano<BR>
-
-      <INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-      </FORM>
+    <input type="submit" value="Submit">
+    </form>
 
 
-      2. Usa el ________ , no las manos.
-
-      <FORM method="POST"
-            onSubmit="return checkAnswer(this,'B');"
-      >
-
-      <INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-      A. boca<BR>
-
-      <INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-      B. tenedor<BR>
-
-      <INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-      C. tenedores<BR>
-
-      <INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-      </FORM>
+      <p>Your grade is: <span id="grade3">__</span></p>
+      <p id="grade4"></p>
 
     </div>
   </div>
@@ -220,8 +202,24 @@
   <p>This is a simple program to help you teach Spanish Kindergarten level in an Interactive Way.</p>
   <p><a class="btn btn-primary btn-lg" href="signup.html" role="button">Sign Up</a></p>
 </div>
+
+<footer>
+
+ <!-- Copyright -->
+ <div class="row">
+  <div class="col-md-12">
+   <p class="text-center">
+    &copy; Copyright 2017 by Carlos Farelo. All rights reserved.
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Use</a>
+   </p>
+  </div>
+ </div>
+</footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="script2.js"></script>
+
   </body>
 </html>

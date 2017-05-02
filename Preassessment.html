@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body1>
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -56,111 +56,60 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<div class="Pre-assessment">
-<h2>A Quick Quiz to see how much you know!!!</h2>
-
-1. Tenemos dos libros ________
-
-<FORM method="POST"
-      onSubmit="return checkAnswer(this,'A');"
->
-
-<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-A. azules<BR>
-
-<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-B. azul<BR>
-
-<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-C. blanca<BR>
-
-<INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-</FORM>
 
 
-2. A mi me __________ los animales.
+  <div id="main"><!-- open main div -->
+  <div id="header"><!-- open header div, the picture on css is not loading-->
+  <h1>Pre-Assessment</h1>
+  <p>A Quick Quiz to see how much you know!!!</p>
+  </div><!-- close header div -->
 
-<FORM method="POST"
-      onSubmit="return checkAnswer(this,'B');"
->
 
-<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-A. gusto<BR>
+<form  id="form1" action=" ">
+<p>1. Tenemos dos libros ________.</p>
+<input type="radio" name="variable" value="20" />azules.<br />
+<input type="radio" name="variable" value="0" />azul.<br />
+<input type="radio" name="variable" value="0" />blanca.<br />
+<input type="radio" name="variable" value="0" />blancas.<br />
 
-<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-B. gustan<BR>
+<p>2. A mi me __________ los animales.</p>
+<input type="radio" name="sub" value="0" />gusto.<br />
+<input type="radio" name="sub" value="20" />gustan.<br />
+<input type="radio" name="sub" value="0" />gusta<br />
+<input type="radio" name="sub" value="0" />gustoso.<br />
 
-<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-C. gusta<BR>
+<p>3. Maria es mas alta _______ Pedro.</p>
+<input type="radio" name="con" value="0" />tan.<br />
+<input type="radio" name="con" value="20" />que.<br />
+<input type="radio" name="con" value="0" />como.<br />
+<input type="radio" name="con" value="0" />de.<br />
 
-<INPUT TYPE="SUBMIT" VALUE="Submit Answer">
+<p>4. ________ veinte años.</p>
+<input type="radio" name="ifstate" value="0" />soy.<br />
+<input type="radio" name="ifstate" value="0" />estoy.<br />
+<input type="radio" name="ifstate" value="0" />estamos.<br />
+<input type="radio" name="ifstate" value="20" />tengo.<br />
 
-</FORM>
+<p>5. Ese anillo es perfecto para tu ________.</p>
+<input type="radio" name="cinco" value="0" />brazo.<br />
+<input type="radio" name="cinco" value="20" />dedo.<br />
+<input type="radio" name="cinco" value="0" />cabeza.<br />
+<input type="radio" name="cinco" value="0" />cuello.<br />
 
-3. Maria es mas alta _______ Pedro.
+<input type="submit" value="Submit">
+</form>
 
-<FORM method="POST"
-      onSubmit="return checkAnswer(this,'B');"
->
 
-<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-A. tan<BR>
+  <p>Your grade is: <span id="grade">__</span></p>
+  <p id="grade2"></p>
+  </div><!-- close main div -->
 
-<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-B. que<BR>
-
-<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-C. como<BR>
-
-<INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-</FORM>
-
-4. ________ veinte años.
-
-<FORM method="POST"
-      onSubmit="return checkAnswer(this,'C');"
->
-
-<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-A. soy<BR>
-
-<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-B. estoy<BR>
-
-<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-C. tengo<BR>
-
-<INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-</FORM>
-
-5. Ese anillo es perfecto para tu ________.
-
-<FORM method="POST"
-      onSubmit="return checkAnswer(this,'B');"
->
-
-<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-A. brazo<BR>
-
-<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-B. dedo<BR>
-
-<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-C. cuello<BR>
-
-<INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-</FORM>
-
-</div>
 
 <div class="jumbotron">
-  <h2>Results</h2>
-  <p>Great Job!!! According to the Quiz results, you should start at Lesson 1!</p>
-  <a class="btn btn-primary btn-lg" href="Lessons.html">Go to Lesson 1</a>
+  <h2>Next Step</h2>
+  <p>Great Job!!! Please click on the recommended level!</p>
+  <a class="btn btn-primary btn-lg" href="Lessons.html">Beginner</a>
+  <a class="btn btn-primary btn-lg" href="Lessons3.html">Intermediate</a>
 </div>
 
 <div class="jumbotron">
@@ -168,8 +117,25 @@ C. cuello<BR>
   <p>This is a simple program to help you teach Spanish Kindergarten level in an Interactive Way.</p>
   <p><a class="btn btn-primary btn-lg" href="signup.html" role="button">Sign Up</a></p>
 </div>
+
+<!-- Footer -->
+  <footer>
+
+   <!-- Copyright -->
+   <div class="row">
+    <div class="col-md-12">
+     <p class="text-center">
+      &copy; Copyright 2017 by Carlos Farelo. All rights reserved.
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-  </body>
+<script type="text/javascript" src="script.js"></script>
+  </body1>
 </html>
